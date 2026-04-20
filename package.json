@@ -1,0 +1,25 @@
+{
+  "name": "gamekey-admin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://akaAFK.github.io/GameKey-Admin", 
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.3",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.2"
+  }
+}
